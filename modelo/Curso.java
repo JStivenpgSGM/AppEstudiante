@@ -5,10 +5,12 @@ public class Curso {
     private double nota;
     private int creditos;
 
-    public Curso(String codigoCurso, String nombreCurso, double nota) {
+    public Curso(String codigoCurso, String nombreCurso, int creditos) {
         this.codigoCurso = codigoCurso;
         this.nombreCurso = nombreCurso;
-        this.nota = nota;
+        this.creditos = creditos;
+
+
     }
 
     public String getNombreCurso() {
