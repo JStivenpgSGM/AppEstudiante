@@ -15,6 +15,7 @@ public class Estudiante {
         this.codigo = codigo;
         this.nombre = nombre;
         this.apellido = apellido;
+
     }
     public boolean asignarCurso(Curso Curso){
 
